@@ -3,6 +3,7 @@ import Home from './components/Home';
 import PropsDrilling from './components/props_drilling/PropsDrilling';
 import UseMemo from './components/hooks/UseMemo';
 import Function from './components/code_swati/Function'
+import Counter from './components/code_swati/Lifecycle';
 
 function App(props) {
   return (
@@ -10,7 +11,8 @@ function App(props) {
       {/* <Home/>
       <PropsDrilling/>
       <UseMemo/> */}
-      <Function/>
+      {/* <Function/> */}
+      <Counter/>
     </div>
   );
 }
