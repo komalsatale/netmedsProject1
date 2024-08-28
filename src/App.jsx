@@ -1,5 +1,6 @@
 import React from 'react';
-import ApiIntegration from './components/classcomponent/ApiIntegration';
+import UseState from './components/hooks/UseState';
+// import ApiIntegration from './components/classcomponent/ApiIntegration';
 // import LifeCycle from './components/classcomponent/LifeCycle';
 // import Home from './components/Home';
 // import PropsDrilling from './components/props_drilling/PropsDrilling';
@@ -12,7 +13,8 @@ function App(props) {
       <PropsDrilling/>
       <UseMemo/> */}
       {/* <LifeCycle/> */}
-      <ApiIntegration/>
+      {/* <ApiIntegration/> */}
+      <UseState />
 
     </div>
   );
